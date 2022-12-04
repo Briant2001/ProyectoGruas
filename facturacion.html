@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturación</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/llamada.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/factura.css">
+</head>
+<body>
+    <header class="head cotainer">
+        <img src="img/logo-gruas.png" alt="" class="head__logo">
+        <nav class="head__navegacion">
+            <ul>
+                <li class="head__enlace"><a href="index.html">Home</a></li>
+                <li class="head__enlace"><a href="servicios.html">Servicios</a></li>
+                <li class="head__enlace"><a href="facturacion.html">Facturación</a></li>
+                <li class="head__enlace"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="llamada container">
+        <h1 class="llamada__titulo">SERVICIO DE GRÚAS HUETAMO</h1>
+        <p class="llamada__texto">Gruas Arreola es una  pequeña empresa que ofrece el mejor sercicio de Grúas de Arrastre y Arrastre Salvamento y Depósito de Vehículos</p>
+        <a href="#" class="llamada__boton boton">Llamar ahora</a>
+    </section>
+
+    <section class="factura container">
+        <div class="factura__content">
+            <div class="factura__header">
+                <h2 class="factura__title">Solicitar Factura</h2>
+                <p class="factura__informacion"> Recuerda que sólo es posible facturar dentro del mes en el que se generó el servicio. Tu factura será emitida de 24 a 48 horas hábiles, una vez enviado los datos completo.
+                </p>
+            </div>
+            <div class="factura__solicitud">
+                    <form class="factura__form" action="">
+                        <input class="factura__input" type="text" placeholder="Nombre del solicitante">
+                        <input class="factura__input" type="tel" placeholder="Telefono contacto">
+                        <input class="factura__input" type="text" placeholder="Direccion o ubicacion">
+                        <select class="factura__select" name="" id="">
+                            <option value="Motocicleta" selected>Elija el servicio contratado</option>
+                            <option value="Motocicleta">Servicio de grúa local</option>
+                            <option value="Motocicleta">Servicio de grúa foraneo</option>
+                            <option value="Motocicleta">Servicio de asistencia vial</option>
+                        </select>                    
+                        <input class="factura__input" type="text" placeholder="Numero de servicio">
+                        <div class="factura__fecha">
+                            <input class="factura__input factura__input--date" type="date" placeholder="Fecha de servicio">
+                            <input class="factura__input factura__input--date" type="number" placeholder="Monto pagado">
+                        </div>
+                        <select class="factura__select" name="" id="">
+                            <option value="Motocicleta" selected>Eliga la forma de pago</option>
+                            <option value="Motocicleta">Tarjeta de credito</option>
+                            <option value="Motocicleta">Tarjeta de debito</option>
+                            <option value="Motocicleta">Transferencia bancaria</option>
+                            
+                        </select>
+                        <input class="factura__input" type="text" placeholder="RFC">
+                        <input class="factura__input" type="email" placeholder="Email">
+                        
+                        <textarea class="factura__textarea" name="" id="" cols="10" rows="10">Comentarios</textarea>
+                        <div class="factura__boton">
+                            <button class="factura__boto boton">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <img src="img/logo-gruas.png" alt="" class="footer__logo">
+            <ul class="footer__social">
+                <li><a href="#" class="footer__midia"><img src="img/facebook.png" alt="icono de facebook"></a></li>
+                <li><a href="#" class="footer__midia"><img src="img/instagram.png" alt="icono de instagram"></a></li>
+                <li><a href="#" class="footer__midia"><img src="img/twitter.png" alt="icono de twitter"></a></li>
+            </ul>
+            <p>2022 Gruas Arreola. &copy;Todos los Derechos Reservados. </p>
+    </footer>
+
+</body>
+</html>
